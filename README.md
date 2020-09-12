@@ -10,6 +10,12 @@ The user can either build the Docker image themselves or pull the image from Doc
 $ docker pull danielkelshaw/xfoil:latest
 ```
 
+Another option is to use the provided `Makefile`, for example:
+
+```bash
+$ make build
+```
+
 The docker container can then be run using any standard `docker run` command, for example:
 
 ```bash
